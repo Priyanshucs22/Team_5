@@ -1,7 +1,7 @@
 .explore-menu{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 8px;
 }
 
 .explore-menu h1{
@@ -11,7 +11,8 @@
 
 .explore-menu-text{
     color: #808080;
-    max-width: 60%;
+    max-width: 100%;
+    font-size: 25px;
 }
 
 .explore-menu-list{
