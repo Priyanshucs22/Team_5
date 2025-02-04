@@ -3,7 +3,7 @@ import './navbar.css'
 import { assets } from '../../assets/assets'
 
 
-const Navbar = () => {
+const Navbar = ({setShowLogin}) => {
 
   const [menu,setMenu]=useState("Home");
 
@@ -22,7 +22,7 @@ const Navbar = () => {
           <img src={assets.basket_icon} alt="" />
           <div className="dot"></div>
         </div>
-         <button>Sign in</button>
+         <button onClick={()=>setShowLogin(true)}>Sign in</button>
       </div>
     </div>
   )
